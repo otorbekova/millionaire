@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    tools:context=".Result.Res_sms">
+    <LinearLayout
+        android:id="@+id/lose"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/df" />
+
+        <TextView
+            android:text="Вы проиграли!!!"
+            android:layout_marginLeft="20dp"
+            style="@style/text_prog"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:text="Количество раундов:"
+                android:layout_marginLeft="20dp"
+                style="@style/text_prog"
+                />
+
+            <TextView
+                android:id="@+id/d"
+                android:layout_marginLeft="20dp"
+                android:text="kol"
+                style="@style/text_prog"
+                />
+        </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/kol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="$"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+</LinearLayout>
+
+        <Button
+            android:id="@+id/menu_m"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Главное меню"
+            android:background="@drawable/vybor"
+            />
+    </LinearLayout>
+
+</LinearLayout>
